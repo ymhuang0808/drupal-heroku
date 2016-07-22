@@ -1,0 +1,27 @@
+{
+    "name": "ymhuang0808/drupal-heroku",
+    "description": "Drupal for Heroku deployment",
+    "require": {
+        "php": "~5.6",
+        "ext-PDO": "*",
+        "ext-pdo_mysql": "*",
+        "ext-mysqli": "*",
+        "ext-xml": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "ext-curl": "*",
+        "ext-gd": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "YMHuang",
+            "email": "ym.huang0808@gmail.com"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "bash scripts/deploy.sh"
+        ]
+    }
+}
