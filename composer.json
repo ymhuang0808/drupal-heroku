@@ -22,7 +22,7 @@
     ],
     "scripts": {
         "post-install-cmd": [
-            "bash scripts/deploy.sh"
+            "scripts/deploy.sh"
         ]
     }
 }
