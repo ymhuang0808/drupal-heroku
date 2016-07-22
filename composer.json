@@ -10,7 +10,8 @@
         "ext-json": "*",
         "ext-openssl": "*",
         "ext-curl": "*",
-        "ext-gd": "*"
+        "ext-gd": "*",
+        "heroku-php-nginx": "*"
     },
     "license": "MIT",
     "authors": [
@@ -18,10 +19,5 @@
             "name": "YMHuang",
             "email": "ym.huang0808@gmail.com"
         }
-    ],
-    "scripts": {
-        "post-install-cmd": [
-            "bash scripts/deploy.sh"
-        ]
-    }
+    ]
 }

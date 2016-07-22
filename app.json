@@ -2,10 +2,12 @@
   "name": "Drupal Heroku",
   "description": "TODO: Add a short description about Drupal Heroku",
   "keywords": [
-    "small",
-    "sharp",
-    "tool"
+    "heroku",
+    "web",
+    "cms"
   ],
-  "addons": [],
-  "env": {}
+  "addons": ["cleardb:ignite","newrelic:wayne","sendgrid:starter"],
+  "scripts": {
+    "postdeploy": "scripts/deploy.sh"
+  }
 }
