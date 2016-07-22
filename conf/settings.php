@@ -219,18 +219,18 @@
  * @endcode
  */
 
- $db = parse_url($_ENV["CLEARDB_DATABASE_URL"]);
+  $db = parse_url($_ENV["CLEARDB_DATABASE_URL"]);
 
- $databases['default']['default'] = array(
-  'database' => trim($db["path"], "/"),
-  'username' => $db["user"],
-  'password' => $db["pass"],
-  'prefix' => '',
-  'host' => $db["host"],
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
+  $databases['default']['default'] = array(
+   'database' => trim($db["path"], "/"),
+   'username' => $db["user"],
+   'password' => $db["pass"],
+   'host' => $db["host"],
+   'port' => '3306',
+   'driver' => 'mysql',
+   'prefix' => '',
+   'collation' => 'utf8mb4_general_ci',
+  );
 
 
 /**
