@@ -11,8 +11,7 @@
         "ext-openssl": "*",
         "ext-curl": "*",
         "ext-gd": "*",
-        "ext-mbstring": "*",
-        "ext-libsodium": "*"
+        "ext-mbstring": "*"
     },
     "license": "MIT",
     "authors": [
