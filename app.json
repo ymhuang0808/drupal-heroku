@@ -6,8 +6,5 @@
     "web",
     "cms"
   ],
-  "addons": ["cleardb:ignite","newrelic:wayne","sendgrid:starter"],
-  "scripts": {
-    "postdeploy": "scripts/deploy.sh"
-  }
+  "addons": ["cleardb:ignite","newrelic:wayne","sendgrid:starter"]
 }

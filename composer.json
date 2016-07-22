@@ -19,5 +19,10 @@
             "name": "YMHuang",
             "email": "ym.huang0808@gmail.com"
         }
-    ]
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "bash scripts/deploy.sh"
+        ]
+    }
 }
