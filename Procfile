@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-nginx drupal
+web: vendor/bin/heroku-php-nginx drupal/
