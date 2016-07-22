@@ -11,6 +11,7 @@
         "ext-openssl": "*",
         "ext-curl": "*",
         "ext-gd": "*",
+        "ext-mbstring": "*",
         "heroku-php-nginx": "*"
     },
     "license": "MIT",
